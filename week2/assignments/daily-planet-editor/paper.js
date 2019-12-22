@@ -9,9 +9,9 @@ just fix the existing ones.
 
 // Written by Kent, Clark
 
-var enemyName=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
+var enemyName = ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
-function Who_Wins(isThereKryptonite,enemyName)
+function whoWins (isThereKryptonite,enemyName)
 {
 if (!isThereKryptonite)
 {
@@ -23,15 +23,15 @@ else{
 }
     }
 
-for (var i=0;i<enemies.length;i++)
+for (var i=0;i<enemyName.length;i++)
 {
-    var is_there_kryptonite
+    var isThereKryptonite
     if (i%2=== 0) {
-        is_there_kryptonite = true;
+        isThereKryptonite = true;
     } else {
-        is_there_kryptonite = false;
+        isThereKryptonite = false;
     }
-    console.log(Who_Wins(is_there_kryptonite,enemies[i]));
+    console.log("whoWins"(isThereKryptonite,enemyName[i]));
 }
 
 function HowAttractedIsLoisLaneToMe ()
