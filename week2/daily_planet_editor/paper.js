@@ -1,7 +1,6 @@
 /*
 This code contains only syntax and code style problems. The logic of the code works,
 so DO NOT change the functionality of anything in here.
-
 In short, you shouldn't need to add your own statements anywhere,
 just fix the existing ones.
 */
@@ -9,13 +8,18 @@ just fix the existing ones.
 
 // Written by Kent, Clark
 
-var enemyName = ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
+var Enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
-    funtion whoWins(isThereKryptonite + enemyName) {
-if (isThereKryptonite){
-    return "Superman beats" +enemyName+  "of course";
-    }else{
-    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyname +" could possibly win this one.";}
+funtion whoWins(is-there-kryptonite,enemyName)
+{
+if (!is-there-kryptonite)
+{
+    return "Superman beats " +enemyName+ ", of course";
+}
+
+else{
+    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyname +" could possibly win this one.";
+}
     }
 
 for (var i=0;i<enemies.length;i++)
@@ -38,7 +42,7 @@ function HowAttractedIsLoisLaneToMe ()
 consol.log( HowAttractedIsLoisLaneToMe ()) ;
 
 var clarkKent =true;
-var superman= false;
+var superman = false;
 
 while (clarkKent){
     console.log("I'm just a nerdy columnist");
