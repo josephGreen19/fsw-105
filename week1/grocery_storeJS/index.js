@@ -7,9 +7,10 @@ var shopper = {
     payCard: false,
     cash: 85,
     change: 1,
-    totalMoney: function() {
-        return this.cash + " " + this.change;
+    totalMoney: function(cash,change) {
+        return this.cash + this.change;
     },
+    
     groceryCart: [ "steak", "milk", "coffee", "bread"]
-};
+}
 console.log(shopper)
