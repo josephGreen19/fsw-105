@@ -19,7 +19,7 @@ if (!isThereKryptonite)
 }
 
 else{
-    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyname +" could possibly win this one.";
+    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyName +" could possibly win this one.";
 }
     }
 
@@ -31,16 +31,16 @@ for (var i=0;i<enemyName.length;i++)
     } else {
         isThereKryptonite = false;
     }
-    console.log("whoWins"(isThereKryptonite,enemyName[i]));
+    console.log(whoWins(isThereKryptonite,enemyName[i]));
 }
 
 function HowAttractedIsLoisLaneToMe ()
 {
     // 1 is not at all attracted, 10 is "super" attracted...
-    return Math.floor((Mat.random()*10)+1);
+    return Math.floor((Math.random()*10)+1);
 }
 
-consol.log( HowAttractedIsLoisLaneToMe ()) ;
+console.log( HowAttractedIsLoisLaneToMe ()) ;
 
 var clarkKent = true;
 var superman = false;
