@@ -27,7 +27,7 @@ function largestNumber(num1, num2, num3) {
 
    
     function word(str1) {
-       if (str1.length >= 20) {
+       if (str1.length <= 20) {
            return str1 + str1
         }else{ (str1.length % 2 == 0)
             return str1.slice(0, str1.length / 2)
