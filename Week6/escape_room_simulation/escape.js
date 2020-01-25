@@ -8,16 +8,14 @@ let options = Number(readline.question("What do you want to do?\n 1.Put your han
     if(options ===1){
       console.log('You Are Dead, Game Over!!!\n')
       return;
-
-      
-     }else if(options === 2) {
+        }else if(options === 2) {
          console.log('You Found The Key!!\n')  
-        } 
         
-       while (options === 3){
+        } while (options === 3){
            console.log('Can not open door until you have the key!!!\n')
            return;
     }
+    
     let options2 = Number(readline.question("Now what do you want to do?\n 1.Put your hand in a hole:\n 2.Find the key:\n 3.Open the door:\n"));
          while(options === 2){
           if (options2 === 3){
